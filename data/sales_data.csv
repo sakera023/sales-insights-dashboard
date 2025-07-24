@@ -1,0 +1,6 @@
+OrderID,Product,Category,Region,Sales,Quantity,Date
+1001,Widget A,Electronics,North,1200,5,2023-01-15
+1002,Widget B,Electronics,South,850,3,2023-01-16
+1003,Widget C,Home,East,400,2,2023-01-17
+1004,Widget A,Electronics,West,1300,6,2023-01-18
+1005,Widget D,Home,North,700,4,2023-01-19
