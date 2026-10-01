@@ -1,27 +1,29 @@
 # Sales Insights Dashboard
 
-This project analyzes a sample sales dataset to extract trends, KPIs, and forecasts using Python.
+This project analyzes a small sample sales dataset with Python to demonstrate data preparation, KPI aggregation, and visualization.
 
-## Features
-- Data cleaning and transformation
-- Sales trend analysis
-- KPI calculation (revenue, top products, regional performance)
-- Visualization with Matplotlib and Seaborn
+## Included analysis
 
-## Tools
-- Python, pandas, matplotlib, seaborn
-- Jupyter Notebook
+- Parse order dates
+- Aggregate total sales by region
+- Rank regional performance
+- Visualize the result with Seaborn and Matplotlib
+- Execute the notebook automatically in continuous integration
 
 ## Setup
 
+Python 3.11 or newer is recommended.
+
 ```bash
-pip install -r requirements.txt
+python -m pip install -r requirements.txt
 ```
 
-## Run
+## Run the notebook
 
-Open the notebook in Jupyter:
+From the repository root:
 
 ```bash
 jupyter notebook notebooks/sales_analysis.ipynb
 ```
+
+The committed CSV is synthetic demonstration data and should not be interpreted as real business performance.
